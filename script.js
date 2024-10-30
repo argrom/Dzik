@@ -8,8 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
 		
 
         function startCounting() {
-		counter = 0;
-		fastest = 0;
             const interval = 4;
             if (intervalId) {
                 stopCounting();
